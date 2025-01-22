@@ -68,6 +68,10 @@ p {
 .content p {
     font-size: 14px;
 }
+
+.content a {
+    color: var(--branding-color);
+}
 .content {
     margin:30px;
 }
