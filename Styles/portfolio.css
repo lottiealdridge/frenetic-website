@@ -91,6 +91,42 @@ p {
     justify-content: center;
 }
 
+.logo {
+    max-height: 40px;
+
+}
+
+nav {
+    padding: 20px 0;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    list-style: none;
+    line-height: 42px;
+    margin-left:15px
+}
+
+nav li.active a, 
+nav a:hover {
+    color: var(--font-color);
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--branding-color);
+}
+
+nav a:hover {
+    transition: all 100ms ease-in-out;
+    text-decoration: none
+}
+
 @media(max-width:900px) {
     h1 {
         font-size:60px;
@@ -106,5 +142,13 @@ p {
         text-align: center;
         padding:0;
 
+    }
+
+    nav a {
+        font-size: 12px;
+    }
+
+    .logo {
+        max-height: 25px;
     }
 }
