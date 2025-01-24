@@ -28,7 +28,7 @@ h2 {
     text-align:center;
 }
 
-h4 {
+h3 {
     font-size:48px;
 }
 
@@ -43,7 +43,7 @@ p {
 .hero {
     background-color: var(--secondary-color);
     text-align: center;
-    padding: 160px 20px;
+    padding: 80px 20px;
 }
 
 .hero h3 {
@@ -51,7 +51,7 @@ p {
 }
 
 .content-container{
-    padding: 160px 20px;
+    padding: 60px 20px;
 }
 
 .content h1 {
@@ -145,6 +145,9 @@ footer .contact-box p {
     margin: 0;
 }
 
+footer .btn-box:hover {
+    color: var(--background-color)
+}
 footer .email-link {
     text-decoration: none;
     color: var(--branding-color);
@@ -177,7 +180,7 @@ footer .email-link:hover {
         font-size:44px;
     }
 
-    h4 {
+    h3 {
         font-size: 18px;
     }
     .hero {
