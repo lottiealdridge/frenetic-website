@@ -28,12 +28,16 @@ h2 {
     text-align:center;
 }
 
+h4 {
+    font-size:48px;
+}
+
 
 p {
     font-weight: normal;
     font-size: 16px;
     line-height: 1.5;
-    text-align:center;
+    text-align: center;
 }
 
 .hero {
@@ -127,12 +131,54 @@ nav a:hover {
     text-decoration: none
 }
 
+footer {
+    margin: 60px 0;
+}
+
+footer .contact-box {
+    background-color: var(--secondary-color);
+    padding: 30px 120px;
+    border-radius: 10px;
+}
+
+footer .contact-box p {
+    margin: 0;
+}
+
+footer .email-link {
+    text-decoration: none;
+    color: var(--branding-color);
+    font-size:24px;
+    text-align: center;
+}
+
+footer .social-links a {
+    margin: 0 20px;
+    color: var(--branding-color);
+    padding: 10px;
+    font-size:28px;
+
+}
+
+footer .social-links a:hover {
+    color: var(--font-color);
+    transition: all 150ms ease;
+}
+
+footer .email-link:hover {
+    color: var(--font-color);
+}
+
 @media(max-width:900px) {
     h1 {
         font-size:60px;
     }
     h2 {
         font-size:44px;
+    }
+
+    h4 {
+        font-size: 18px;
     }
     .hero {
         padding: 80px 20px;
@@ -141,7 +187,6 @@ nav a:hover {
     .content-container {
         text-align: center;
         padding:0;
-
     }
 
     nav a {
@@ -150,5 +195,12 @@ nav a:hover {
 
     .logo {
         max-height: 25px;
+    }
+    footer p {
+        font-size: 12px;
+    }
+
+    footer .btn {
+        padding: 10px;
     }
 }
