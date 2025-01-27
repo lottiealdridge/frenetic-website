@@ -172,6 +172,17 @@ footer .email-link:hover {
     color: var(--font-color);
 }
 
+.github-link {
+    text-decoration: none;
+    color: var(--branding-color);
+}
+
+.github-link:hover {
+    text-decoration: none;
+    color: var(--font-color);
+    transition: all 150ms ease;
+}
+
 @media(max-width:900px) {
     h1 {
         font-size:60px;
